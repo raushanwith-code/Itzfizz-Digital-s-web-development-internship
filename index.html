@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITZFIZZ - Premium Hero with GSAP ScrollTrigger</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Playfair+Display:wght@600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            
+            <h1 class="headline">
+                <span class="headline-char">W</span>
+                <span class="headline-char">E</span>
+                <span class="headline-char">L</span>
+                <span class="headline-char">C</span>
+                <span class="headline-char">O</span>
+                <span class="headline-char">M</span>
+                <span class="headline-char">E</span>
+                <span class="headline-spacing"></span>
+
+                <span class="headline-char">I</span>
+                <span class="headline-char">T</span>
+                <span class="headline-char">Z</span>
+                <span class="headline-spacing"></span>
+
+                <span class="headline-char">F</span>
+                <span class="headline-char">I</span>
+                <span class="headline-char">Z</span>
+                <span class="headline-char">Z</span>
+            </h1>
+
+            
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="98">98<span class="stat-percent">%</span></div>
+                    <p class="stat-description">Customer Satisfaction</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="500">500<span class="stat-plus">+</span></div>
+                    <p class="stat-description">Projects Delivered</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="15">15<span class="stat-plus">+</span></div>
+                    <p class="stat-description">Years Experience</p>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">24<span class="stat-plus">/7</span></div>
+                    <p class="stat-description">Premium Support</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="scroll-indicator">
+            <span>Scroll to Explore</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+
+        
+        <div 
+        class="parallax-container" id="parallax-container">
+            <div class="parallax-shape shape-1 hover-element" data-hover="true"></div>
+            <div class="parallax-shape shape-2 hover-element" data-hover="true"></div>
+            <div class="parallax-shape shape-3 hover-element" data-hover="true"></div>
+            <div class="parallax-shape shape-4 hover-element" data-hover="true"></div>
+        </div>
+
+        
+        <div class="accent-line accent-line-1"></div>
+        <div class="accent-line accent-line-2"></div>
+    </section>
+
+    
+    <section class="extended-content" id="extended">
+        
+        <div class="content-wrapper">
+
+            <h2>✨ Experience Excellence</h2>
+            <p>Smooth scroll-driven animations with GSAP ScrollTrigger</p>
+            <div class="content-cards">
+                <div class="card">
+
+                    <div class="card-icon">🎨</div>
+                    <h3>Premium Design</h3>
+                    <p>Luxury aesthetics with golden accents and refined typography</p>
+                </div>
+                <div class="card">
+
+                    <div class="card-icon">⚡</div>
+                    <h3>Smooth Animations</h3>
+                    <p>GSAP ScrollTrigger for performance-optimized motion</p>
+                </div>
+                <div class="card">
+
+                    <div class="card-icon">✨</div>
+                    <h3>Hover Interactivity</h3>
+                    <p>Shape elements respond to mouse movement in real-time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="spacer-section">
+        <h2>Scroll More to See Full Effect</h2>
+        <p>The parallax shapes and headline will animate based on your scroll position</p>
+    </section>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
